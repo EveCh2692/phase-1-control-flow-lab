@@ -1,6 +1,6 @@
 describe('index.js', function () {
   describe('scuberGreetingForFeet()', function () {
-    it('gives customers a free sample if the ride is less than or equal to 400 feet', function () {
+    it('gives customers a free sample if the ride is less than or equal to 400 feet' , function () {
       expect(scuberGreetingForFeet(199)).to.equal('This one is on me!');
     });
 
@@ -32,7 +32,7 @@ describe('index.js', function () {
       expect(switchOnCharmFromTip('not as generous')).to.equal('Thank you.');
     });
 
-    it('should return "Bye." if anything else', function () {
+    it('should return "Bye." ', function () {
       expect(switchOnCharmFromTip('thanks for everything')).to.equal('Bye.');
     });
   });
